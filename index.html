@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: antiquewhite;
+    }
+    head{
+        margin: 0px;
+        padding: 0px;
+    }
+.grid-container {
+    margin: 10px;
+    padding: 10px;
+  display: grid;
+  row-gap: 2px ;
+  column-gap: 2px;
+  background-color:rgb(0, 0, 0);
+  border: 0cap solid black;
+
+}
+
+
+.grid-item {
+  background-color: rgba(250, 248, 248, 0.8);
+  border: 0px solid black;
+  row-gap: 10fr;
+  column-gap: 4fr;
+  text-align:center;
+  padding: 20px;
+  font-size: 20px;
+}
+.item1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.item2 {
+
+  grid-column: 2/ span 3;
+  grid-row: 1 ;
+}
+.item4{
+    grid-column: 2/span 3;
+    grid-row: 2;
+}
+
+.item5 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.item6 {
+    grid-column: 2/ span 3;
+    grid-row: 3;
+  }
+  .item7{
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .item8{
+    grid-column: 2/span 3;
+    grid-row: 4;
+  }
+  footer{
+    background-color: rgb(15, 15, 244);
+    color: aliceblue;
+    text-align:left;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  .about{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    row-gap:2px;
+    column-gap: 2px;
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+    border: 0cap solid black;
+  }
+  .item9{
+    grid-column: 1/ span 3;
+    grid-row: 1;
+  }
+  .item10{
+    grid-row: 2/span 3;
+    grid-column: 1 / span 3;
+    text-align:justify;
+
+  }
+  .grid1{
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    row-gap: 10fr;
+    column-gap: 4fr;
+    text-align:center;
+    padding: 20px;
+    font-size: 20px;
+
+
+  }
+a{
+    color: black;
+    font-family: 'segeo ui';
+
+
+}
+img{
+    margin-left: auto;
+   margin-right: auto;
+   display: block;
+   border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<header style="background-color: blue; text-align:center;color:rgb(240, 242, 244); margin:auto;padding: 10px; display:block;">
+    <h1>
+        Protfolio
+    </h1>
+    
+</header><br>
+<img src="1.png"><br>
+
+<div class="grid-container">
+  <div class="grid-item item1">NAME</div>
+  <div class="grid-item item2" title="<img src='1.png'" >A.Jagadishwar reddy
+    <a href="1.png"><i>@photo</i></a>
+  </div>
+  <div class="grid-item item3">project</div>  
+  <div class="grid-item item4">Amazon cloudfront with S3 <a href="demo.mp4">@demo</a></div>
+  <div class="grid-item item5">skills</div>
+  <div class="grid-item item6">HTML and CSS,Cpp, C,Java </div>
+  <div class="grid-item item7">contact </div>
+ 
+  <div class="grid-item item8"><a href="https://github.com/jaggu1624">@github</a>
+    
+    <a href="https://www.facebook.com/atla.jagadishwar">@facebook</a>
+    <a href="mailto:email@gamil">@mail</a>
+</div>
+</div>
+<div class="about">
+<div class="grid1 item9"> About me </div>
+<div class="grid1 item10">
+    <i><b>Problem Solving:</b></i>
+Known for my problem-solving abilities, I thrive in dynamic environments and excel at finding creative solutions to complex challenges."
+</div>
+<div class="grid1 item11">
+    <i><b>Collaboration and Teamwork:</b></i>
+    "I believe in the power of collaboration and am adept at working in diverse teams, drawing on each member's strengths to achieve collective success."
+</div>
+
+</div>
+
+<br>
+<br>
+
+<footer>
+    <h3>
+        &copy; 2024 Your Portfolio. All rights reserved.
+    </h3>
+</footer>
+</body>
+</html>
+
